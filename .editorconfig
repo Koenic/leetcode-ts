@@ -1,0 +1,20 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+
+# Default to 2 spaces for all files
+indent_style = space
+indent_size = 2
+
+# Maintain consistency with package.json
+[package.json]
+indent_style = space
+indent_size = 2
+
+# Markdown files should allow trailing whitespace
+[*.md]
+trim_trailing_whitespace = false
