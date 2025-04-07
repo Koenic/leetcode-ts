@@ -13,6 +13,7 @@ export const pascalsTriangleLineMod10 = (n: number): number[] => {
   return line;
 };
 
+// this solution is too slow for leetcode. I would need to research more on how I could create a large pascal triangle without resorting to bigint to make it faster.
 export function hasSameDigits(s: string): boolean {
   const sIntArray: number[] = [];
   for (let i = 0; i < s.length; i++) {
