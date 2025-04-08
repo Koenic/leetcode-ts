@@ -20,6 +20,16 @@ export default tseslint.config(
     },
   },
   {
+    rules: {
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          argsIgnorePattern: "^_",
+        },
+      ],
+    },
+  },
+  {
     files: ["**/*.test.ts", "**/*.spec.ts"],
     plugins: {
       vitest,

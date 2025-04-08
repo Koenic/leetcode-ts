@@ -1,5 +1,6 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "git.enableCommitSigning": true
+  "git.enableCommitSigning": true,
+  "editor.tabSize": 2
 }
